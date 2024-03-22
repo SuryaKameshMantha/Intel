@@ -34,11 +34,11 @@ print(story)
 
 First we import the intel extension for pytorch for efficient and precise computation,then our code is generating the story using the GPT-2 model by hugging face and some hyperparameter are defined so as to limit the length of the story, these are:
 
--max_tokens: which tells us about the number of words or letters we limit our data to.
--temperature: Controls the randomness of token sampling.
--top_k: Controls the number of most likely tokens to keep.
--top_p: Controls the nucleus sampling for token selection.
--repetition_penalty: Penalty for repeating tokens.
+- max_tokens: which tells us about the number of words or letters we limit our data to.
+- temperature: Controls the randomness of token sampling.
+- top_k: Controls the number of most likely tokens to keep.
+- top_p: Controls the nucleus sampling for token selection.
+- repetition_penalty: Penalty for repeating tokens.
 
 The generated text is now made precise by formatting it to the way it should be visible
 
@@ -76,9 +76,9 @@ for i in range(num_images):
 
 Here is the code for the image generation, i have used the title of the story to generate image related to it and the image is also being optimized by hyperparameter tuning which is:
 
--steps :number of updates the system makes before giving the result, making it more accurate.
--guidance :how closely you want the image to be related to the prompt that you have typed.
--neg: the list of elements for the image that you don’t want to happen.
+- steps :number of updates the system makes before giving the result, making it more accurate.
+- guidance :how closely you want the image to be related to the prompt that you have typed.
+- neg: the list of elements for the image that you don’t want to happen.
 
 ## Video Generation
 <pre>
