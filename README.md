@@ -1,5 +1,10 @@
-## StoryTeller
+# StoryTeller
 The intel OneAPI based storyteller is an interactive way to listen the things that you want and have waht you want at your fingertips fast and precise, this is a AI based chatbot system which can generate images by using the Intel's API toolkit which provide parallelism and efficieny to it. So, let's see what we got in here.
+
+##Installing the necessary libraries
+
+<pre>
+    ```python
 !pip install gTTS moviepy diffusers
 
 !pip install torch torchvision
@@ -9,7 +14,13 @@ The intel OneAPI based storyteller is an interactive way to listen the things th
 !pip install accelerate
 
 !pip install git+https://github.com/huggingface/diffusers
+    ```
+    </pre>
 
+
+##Story Creation
+<pre>
+```python
 from transformers import pipeline, set_seed
 
 import intel_extension_for_pytorch as ipex
@@ -25,17 +36,19 @@ set_seed(42)
 Define the text prompt
 text = " a boy in the forest"
 prompt = "generate a story on the title" + text
-
-# Set the maximum number of tokens
+{Set the maximum number of tokens}
 max_length = 1024
 
-# Generate the story
+
+###Generate the story
+
 story = pipe(
     prompt,
     max_length=max_length,
     truncation=True
 )[0]['generated_text'][len(prompt)+2:]
-print(story)
+print(story)```
+    </pre>
 from gtts import gTTS
 narration_text = story
 narration = gTTS(text=narration_text, lang='en-us', slow=True, tld='com')
