@@ -5,7 +5,17 @@ The intel OneAPI based storyteller is an interactive way to listen the things th
 Logo for storyteller
 ![Logo](LOGO.png)
 Interface for storyteller
-![interface](INTERFACE.png)
+![CHATBOT INTERFACE](INTERFACE.png)
+
+## Efficiency with OneAPI
+![Graph](graph.png)
+
+Time is one of the key factors that my model outperformed in comparison to normal gpu’s time, and this is done only with the help of Intel One API.There were some of the key modification that helped me:
+
+- Using the Intel optimized pytorch and Intel oneDNN (Deep Neural Network Library) on it’s interface of Intel Developer Cloud, the time and precision of the story creation increased due to multicore CPU processing.
+- Using VTune Profile I was able to analyze my code’s performance and identify potential bottlenecks. It also provided me insights on how to optimize your code further.
+- Using Intel Threading Building Blocks (TBB) which involves parallelism, i was able to do efficient parallel execution. It provided a high-level abstraction for parallelism and improved performance on multi-core CPUs.
+
 ## Installing the necessary libraries
 
 <pre>
