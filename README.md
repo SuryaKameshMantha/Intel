@@ -106,6 +106,10 @@ Time is one of the key factors that my model outperformed in comparison to norma
 - Using VTune Profile I was able to analyze my code’s performance and identify potential bottlenecks. It also provided me insights on how to optimize your code further.
 - Using Intel Threading Building Blocks (TBB) which involves parallelism, i was able to do efficient parallel execution. It provided a high-level abstraction for parallelism and improved performance on multi-core CPUs.
 
+## Article
+[Interactive storyteller using Intel OneAPI](https://medium.com/@vishesh.bhardwaj.702/interactive-storyteller-using-intel-oneapi-f9fcea940f89)
+## Demo Story Link
+[Youtube](https://youtu.be/-w3gEJbSEb0?si=lho5Gz7Te9YTnTwM )
 ## Creator
 ### Vishesh Bhardwaj
 ### Surya Kamesh Mantha
