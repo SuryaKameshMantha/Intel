@@ -3,8 +3,11 @@ The intel OneAPI based storyteller is an interactive way to listen the things th
 
 ## Prototype Visualization
 Logo for storyteller
+
 ![Logo](LOGO.png)
+
 Interface for storyteller
+
 ![CHATBOT INTERFACE](INTERFACE.png)
 
 ## Efficiency with OneAPI
