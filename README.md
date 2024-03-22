@@ -2,7 +2,10 @@
 The intel OneAPI based storyteller is an interactive way to listen the things that you want and have waht you want at your fingertips fast and precise, this is a AI based chatbot system which can generate images by using the Intel's API toolkit which provide parallelism and efficieny to it. So, let's see what we got in here.
 
 ## Prototype Visualization
+Logo for storyteller
 ![Logo](LOGO.png)
+Interface for storyteller
+![interface](INTERFACE.png)
 ## Installing the necessary libraries
 
 <pre>
